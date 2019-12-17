@@ -1,0 +1,32 @@
+配置ssh
+运行两个脚本
+安装v2ray并启动并打开系统全局代理，登录浏览器后关闭系统代理
+配置输入法
+
+
+
+https://blog.csdn.net/superstar_zbt/article/details/100165299  //manjaro的csdn
+
+1.创建密钥
+
+ssh-keygen -t rsa -C "yourmail@qq.com"
+
+2.使能ssh服务
+
+Set-Service -Name ssh-agent -StartupType automatic   使能
+
+ssh-agent  启动
+
+ssh-add C:\Users\14640\.ssh\id_rsa   添加
+
+3.将公钥存放到github的账户
+
+4.初次认证链接
+
+ssh -T git@github.com   问是否确认要点yes
+
+5.可以下载了
+
+6.多账户配置
+
+

@@ -1,0 +1,53 @@
+V2Ray 4.21.3 (V2Fly, a community-driven edition of V2Ray.) Custom
+A unified platform for anti-censorship.
+2019/12/13 23:20:34 [Warning] v2ray.com/core: V2Ray 4.21.3 started
+2019/12/13 23:20:44 [Info] [1670250116] v2ray.com/core/proxy/socks: TCP Connect request to tcp:www.google.com:443
+2019/12/13 23:20:44 [Info] v2ray.com/core/transport/internet/udp: establishing new connection for udp:8.8.8.8:53
+2019/12/13 23:20:44 [Info] v2ray.com/core/app/dispatcher: default route for udp:8.8.8.8:53
+2019/12/13 23:20:44 [Info] v2ray.com/core/common/mux: dispatching request to udp:8.8.8.8:53
+2019/12/13 23:20:44 [Info] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:104.207.134.87:1370
+2019/12/13 23:20:44 [Info] [1557218280] v2ray.com/core/proxy/socks: TCP Connect request to tcp:lh3.googleusercontent.com:443
+2019/12/13 23:20:44 [Info] [855355497] v2ray.com/core/proxy/socks: TCP Connect request to tcp:www.gstatic.com:443
+2019/12/13 23:20:45 [Info] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:v1.mux.cool:9527 via tcp:104.207.134.87:1370
+2019/12/13 23:20:45 [Info] [1670250116] v2ray.com/core/app/dispatcher: default route for tcp:www.google.com:443
+2019/12/13 23:20:45 [Info] [1670250116] v2ray.com/core/common/mux: dispatching request to tcp:www.google.com:443
+2019/12/13 23:20:45 tcp:127.0.0.1:38074 accepted tcp:www.google.com:443 [agentout] 
+2019/12/13 23:20:45 [Info] [1557218280] v2ray.com/core/app/dispatcher: default route for tcp:lh3.googleusercontent.com:443
+2019/12/13 23:20:45 tcp:127.0.0.1:38076 accepted tcp:lh3.googleusercontent.com:443 [agentout] 
+2019/12/13 23:20:45 [Info] [1557218280] v2ray.com/core/common/mux: dispatching request to tcp:lh3.googleusercontent.com:443
+2019/12/13 23:20:45 [Info] [855355497] v2ray.com/core/app/dispatcher: default route for tcp:www.gstatic.com:443
+2019/12/13 23:20:45 [Info] [855355497] v2ray.com/core/common/mux: dispatching request to tcp:www.gstatic.com:443
+2019/12/13 23:20:45 tcp:127.0.0.1:38082 accepted tcp:www.gstatic.com:443 [agentout] 
+2019/12/13 23:20:46 [Info] [952447017] v2ray.com/core/proxy/socks: TCP Connect request to tcp:adservice.google.com:443
+2019/12/13 23:20:46 [Info] [952447017] v2ray.com/core/app/dispatcher: default route for tcp:adservice.google.com:443
+2019/12/13 23:20:46 [Info] [952447017] v2ray.com/core/common/mux: dispatching request to tcp:adservice.google.com:443
+2019/12/13 23:20:46 tcp:127.0.0.1:38084 accepted tcp:adservice.google.com:443 [agentout] 
+2019/12/13 23:20:52 [Info] v2ray.com/core/transport/internet/udp: failed to handle UDP input > EOF
+2019/12/13 23:20:56 [Info] [1557218280] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP request > read tcp 127.0.0.1:1080->127.0.0.1:38076: read: connection reset by peer
+2019/12/13 23:20:56 [Info] [855355497] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP request > read tcp 127.0.0.1:1080->127.0.0.1:38082: read: connection reset by peer
+2019/12/13 23:20:56 [Info] [855355497] v2ray.com/core/common/mux: failed to fetch all input > io: read/write on closed pipe
+2019/12/13 23:20:56 [Info] [1557218280] v2ray.com/core/common/mux: failed to fetch all input > io: read/write on closed pipe
+2019/12/13 23:20:56 [Info] [1227267116] v2ray.com/core/proxy/socks: TCP Connect request to tcp:adservice.google.com.mx:443
+2019/12/13 23:20:56 [Info] v2ray.com/core/transport/internet/udp: establishing new connection for udp:8.8.8.8:53
+2019/12/13 23:20:56 [Info] v2ray.com/core/app/dispatcher: default route for udp:8.8.8.8:53
+2019/12/13 23:20:56 [Info] v2ray.com/core/common/mux: dispatching request to udp:8.8.8.8:53
+2019/12/13 23:20:56 [Info] [1227267116] v2ray.com/core/app/dispatcher: default route for tcp:adservice.google.com.mx:443
+2019/12/13 23:20:56 [Info] [1227267116] v2ray.com/core/common/mux: dispatching request to tcp:adservice.google.com.mx:443
+2019/12/13 23:20:56 tcp:127.0.0.1:38098 accepted tcp:adservice.google.com.mx:443 [agentout] 
+2019/12/13 23:20:56 [Info] [2718385361] v2ray.com/core/proxy/socks: TCP Connect request to tcp:lh3.googleusercontent.com:443
+2019/12/13 23:20:56 [Info] [2718385361] v2ray.com/core/app/dispatcher: default route for tcp:lh3.googleusercontent.com:443
+2019/12/13 23:20:56 tcp:127.0.0.1:38100 accepted tcp:lh3.googleusercontent.com:443 [agentout] 
+2019/12/13 23:20:56 [Info] [2718385361] v2ray.com/core/common/mux: dispatching request to tcp:lh3.googleusercontent.com:443
+2019/12/13 23:20:56 [Info] [2838876641] v2ray.com/core/proxy/socks: TCP Connect request to tcp:www.gstatic.com:443
+2019/12/13 23:20:56 tcp:127.0.0.1:38102 accepted tcp:www.gstatic.com:443 [agentout] 
+2019/12/13 23:20:56 [Info] [2838876641] v2ray.com/core/app/dispatcher: default route for tcp:www.gstatic.com:443
+2019/12/13 23:20:56 [Info] [2838876641] v2ray.com/core/common/mux: dispatching request to tcp:www.gstatic.com:443
+2019/12/13 23:21:04 [Info] v2ray.com/core/transport/internet/udp: failed to handle UDP input > EOF
+2019/12/13 23:21:48 [Info] [2718385361] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP request > read tcp 127.0.0.1:1080->127.0.0.1:38100: read: connection reset by peer
+2019/12/13 23:21:48 [Info] [2838876641] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP request > read tcp 127.0.0.1:1080->127.0.0.1:38102: read: connection reset by peer
+2019/12/13 23:21:48 [Info] [2718385361] v2ray.com/core/common/mux: failed to fetch all input > io: read/write on closed pipe
+2019/12/13 23:21:48 [Info] [2838876641] v2ray.com/core/common/mux: failed to fetch all input > io: read/write on closed pipe
+2019/12/13 23:21:48 [Info] [2252108453] v2ray.com/core/proxy/socks: TCP Connect request to tcp:www.gstatic.com:443
+2019/12/13 23:21:48 [Info] [2252108453] v2ray.com/core/app/dispatcher: default route for tcp:www.gstatic.com:443
+2019/12/13 23:21:48 [Info] [2252108453] v2ray.com/core/common/mux: dispatching request to tcp:www.gstatic.com:443
+2019/12/13 23:21:48 tcp:127.0.0.1:38112 accepted tcp:www.gstatic.com:443 [agentout] 
